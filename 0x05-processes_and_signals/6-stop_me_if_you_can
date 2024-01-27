@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#another one with pkill this time
+
+pkill -f 4-to_infinity_and_beyond
