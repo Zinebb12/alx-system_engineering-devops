@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#this script are displaying
+
+pgrep bash -l
+~                                                                                                                                      
+~                         
