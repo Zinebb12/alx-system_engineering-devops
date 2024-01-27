@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this file is display 
+
+echo $$
