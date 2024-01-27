@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this script is dispalying
+
+pkill -f -SIGKILL 7-highlander
