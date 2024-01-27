@@ -1,0 +1,3 @@
+i#!/usr/bin/env bash
+#this file is display the current running process
+ps auxf
