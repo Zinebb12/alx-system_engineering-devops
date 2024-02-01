@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# the purpose of this script
+#+ is to display listening ports
+#+ followed by sockets and PID and name 
+#+ of the program to which each socket belongs
+
+sudo netstat -lp
