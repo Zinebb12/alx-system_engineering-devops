@@ -1,7 +1,7 @@
 # 1-install_a_package.pp
 
-# Install an especific version of flask (2.1.0)
-package { 'flask' :
-    ensure   => '2.1.0',
-    provider => 'pip3',
-    }
+# Ensure the Flask package is installed with version 2.1.0
+package { 'Flask':
+  ensure   => '2.1.0',
+  provider => 'pip3',
+}
