@@ -38,7 +38,7 @@ frontend www-http
     http-request set-header X-Forwarded-Proto http
     default_backend www-backend
 frontend www-https
-    bind   0.0.0.0:443 ssl crt /etc/letsencrypt/live/www.zinebzid.tech/fullchain.pem
+    bind   0.0.0.0:443 ssl crt /etc/haproxy/certs/www.zinebzid.tech.pem
     http-request set-header X-Forwarded-Proto https
     acl    letsencrypt-acl path_beg /.well-known/acme-challenge/
     use_backend letsencrypt-backend if letsencrypt-acl
@@ -47,10 +47,12 @@ frontend www-https
 backend www-backend
     balance  roundrobin
     redirect scheme https if !{ ssl_fc }
-    server 529126-web-01 100.27.2.99:80 check
-    server 529126-web-02 100.26.156.18:80 check
-
+         server 529126-web-01 100.27.2.99:80 check
+         server 529126-web-02 100.26.156.18:80 check
+         
 backend letsencrypt-backend
     server letsencrypt 127.0.0.1:54321
+
+
 
 
