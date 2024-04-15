@@ -1,0 +1,8 @@
+
+ck_all_incoming_traffic_but#!/usr/bin/env bash
+# Configures a ufw firewall to block all incoming traffic
+#+ except for TCP ports 22, 443 and 80.
+
+sudo ufw allow ssh
+sudo ufw allow https
+sudo ufw allow http
