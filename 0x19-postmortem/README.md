@@ -27,9 +27,9 @@ To gain a deeper understanding of the concepts explored in this project, conside
 
 ### Issue Summary
 
-- **Duration:** Start Time: [Date & Time] End Time: [Date & Time] (Timezone: [Timezone])
+- **Duration:** Start Time: [Date & Time] End Time: [Date & Time] (Timezone: [PST])
 - **Impact:**
-  - The service [Service Name] experienced downtime, resulting in [Description of Impact, e.g., slow response times, complete unavailability].
+  - The service experienced downtime, resulting in [Description of Impact, e.g., slow response times, complete unavailability].
   - Approximately [Percentage]% of users were affected, experiencing [Describe User Experience, e.g., inability to access the service].
 - **Root Cause:** [Brief description of the root cause of the outage.]
 
@@ -43,7 +43,7 @@ To gain a deeper understanding of the concepts explored in this project, conside
 - **Misleading Paths:**
   - [List any misleading paths or assumptions made during investigation.]
 - **Escalation:**
-  - The incident was escalated to [Team/Individual] for further assistance.
+  - The incident was escalated for further assistance.
 - **Resolution:**
   - The issue was resolved by [Describe resolution steps, e.g., patching software, restarting servers].
 
@@ -61,6 +61,6 @@ To gain a deeper understanding of the concepts explored in this project, conside
 
 ### Conclusion
 
-This postmortem provides insights into the outage experienced by [Service Name], detailing its impact, root cause, resolution, and steps for improvement. By conducting thorough postmortems and implementing corrective measures, we aim to enhance system reliability and prevent future incidents.
+This postmortem provides insights into the outage experienced, detailing its impact, root cause, resolution, and steps for improvement. By conducting thorough postmortems and implementing corrective measures, we aim to enhance system reliability and prevent future incidents.
 
 
