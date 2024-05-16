@@ -34,4 +34,4 @@ Your current web infrastructure utilizes Nginx to serve web pages, as establishe
 - The second line of each Bash script should be a comment explaining the script's purpose.
 
 ---
-By following these guidelines, you can effectively implement and understand the key concepts outlined in this project
+By following these guidelines, you can effectively implement and understand the key concepts outlined in this project .
